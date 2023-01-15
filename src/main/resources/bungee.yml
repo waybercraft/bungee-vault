@@ -1,0 +1,4 @@
+name: BungeeVault
+main: com.fabegalo.github.plugin.bungeecord.BungeeVault
+version: 1.0
+author: fabegalo
