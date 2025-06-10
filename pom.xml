@@ -47,25 +47,20 @@
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </repository>
 	</repositories>
-	<dependencies>
-		<!--This adds the Spigot API artifact to the build -->
-		<dependency>
-			<groupId>org.spigotmc</groupId>
-			<artifactId>spigot-api</artifactId>
-			<version>1.19.3-R0.1-SNAPSHOT</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>com.zaxxer</groupId>
-			<artifactId>HikariCP</artifactId>
-			<version>5.0.1</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client -->
-		<dependency>
-			<groupId>org.mariadb.jdbc</groupId>
-			<artifactId>mariadb-java-client</artifactId>
-			<version>2.7.3</version>
-		</dependency>
+        <dependencies>
+                <!--This adds the Spigot API artifact to the build -->
+                <dependency>
+                        <groupId>org.spigotmc</groupId>
+                        <artifactId>spigot-api</artifactId>
+                        <version>1.19.3-R0.1-SNAPSHOT</version>
+                        <scope>provided</scope>
+                </dependency>
+                <dependency>
+                        <groupId>net.milkbowl.vault</groupId>
+                        <artifactId>VaultAPI</artifactId>
+                        <version>1.7</version>
+                        <scope>provided</scope>
+                </dependency>
 		<dependency>
             <groupId>net.md-5</groupId>
             <artifactId>bungeecord-api</artifactId>
